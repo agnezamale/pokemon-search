@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
-import '../App.css';
 import { useDebounce } from '../hooks/useDebounce';
 import { useSearchPokemon } from '../hooks/useSearchPokemon';
+import '../App.scss';
 import Input from './input';
 import PokemonCard from './PokemonCard';
 

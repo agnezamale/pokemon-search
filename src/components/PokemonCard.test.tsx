@@ -9,15 +9,17 @@ const mockPokemon = {
     types: [{ type: { name: "electric" } }],
 };
 
-it("Should render pokemon name and image correctly", ()=>{
+it("Should render pokemon name, types and image correctly", ()=>{
     render(<PokemonCard pokemon={mockPokemon}/>);
 
     const pokemonName = screen.getByText("pikachu");
     const pokemonImage = screen.getByRole("img");
+    const pokemonType = screen.getByText("electric");
 
     expect(pokemonName).toBeInTheDocument();
     expect(pokemonImage).toHaveAttribute("src", mockPokemon.sprites.front_default);
     expect(pokemonImage).toHaveAttribute("alt", "pikachu");
+    expect(pokemonType).toBeInTheDocument();
 });
 
 it("Should not render pokemons' image if it doesn't have sprite URL", ()=>{
