@@ -2,6 +2,8 @@
 
 Small React + TypeScript app to search Pokémon by **name or ID** using the [PokeAPI](https://pokeapi.co/). The UI includes a search input, debounced requests, and a simple Pokémon card (sprite + types).
 
+**Live app:** [https://pokemon-search-mu-peach.vercel.app/](https://pokemon-search-mu-peach.vercel.app/) (Vercel)
+
 ## Tech stack
 
 - **React + TypeScript** (Create React App)
