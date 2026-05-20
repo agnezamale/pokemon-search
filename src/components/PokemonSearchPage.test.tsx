@@ -44,9 +44,13 @@ afterEach(() => {
     jest.useRealTimers();
 });
 
-it('renders headline, name input and type filter', () => {
+it('renders logo, headline, name input and type filter', () => {
     render(<PokemonSearchPage />);
 
+    expect(screen.getByRole('img', { name: /pokemon search logo/i })).toHaveAttribute(
+        'src',
+        '/pokemonLogo.png'
+    );
     expect(screen.getByRole('heading', { name: /pokemon search/i })).toBeInTheDocument();
     expect(screen.getByRole('textbox')).toBeInTheDocument();
     expect(screen.getByRole('combobox', { name: /type/i })).toBeInTheDocument();

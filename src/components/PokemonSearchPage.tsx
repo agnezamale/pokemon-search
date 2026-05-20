@@ -48,7 +48,14 @@ function PokemonSearchPage() {
 
     return (
         <main className="pokemon-search-page">
-            <h1 className="pokemon-search-page__title">Pokemon Search</h1>
+            <header className="pokemon-search-page__header">
+                <img
+                    src={`${process.env.PUBLIC_URL}/pokemonLogo.png`}
+                    alt="Pokemon Search logo"
+                    className="pokemon-search-page__logo"
+                />
+                <h1 className="pokemon-search-page__title">Pokemon Search</h1>
+            </header>
             <Input value={nameFilter} onChange={onChange} />
             <TypeFilter value={typeFilter} onChange={setTypeFilter} />
 
