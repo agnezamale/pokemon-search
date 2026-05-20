@@ -27,7 +27,7 @@ function PokemonCard({pokemon}: PokemonCardProps){
             aria-label={`${formatName(pokemon.name)} card`}
         >
             <div className="pokemon-card__content">
-                <h2 className="pokemon-card__name">{formatName(pokemon.name)}</h2>
+                <h2 className="pokemon-card__name">{pokemon.id} {formatName(pokemon.name)}</h2>
                 <div className="pokemon-card__types" aria-label="pokemon types">
                     {types.map((type) => (
                         <span key={type} className="pokemon-card__type">

@@ -16,7 +16,7 @@ export function useInfinitePokemon(): UseInfinitePokemonResult{
     const [items, setItems] = useState<PokemonListItem[]>([]);
     const [offset, setOffset] = useState(0);
     const [hasMore, setHasMore] = useState(true);
-    const [isLoading, setIsLoading] = useState(false);
+    const [isLoading, setIsLoading] = useState(true);
     const [isLoadingMore, setIsLoadingMore] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
