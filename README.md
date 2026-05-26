@@ -86,3 +86,15 @@ Tests live next to source files (e.g. `pokeApi.test.ts`, `PokemonSearchPage.test
 ## Data source
 
 Pokémon data is provided by [PokeAPI](https://pokeapi.co/). This project is a learning demo and is not affiliated with Nintendo, Game Freak, or The Pokémon Company.
+
+## Visuals
+
+<img width="1791" height="922" alt="image" src="https://github.com/user-attachments/assets/037bc51e-f44e-4028-a934-c5f57117e074" />
+
+<img width="1791" height="922" alt="image" src="https://github.com/user-attachments/assets/d8a6290a-c7dd-411f-b21e-6465cdd91aef" />
+
+<img width="1791" height="922" alt="image" src="https://github.com/user-attachments/assets/06314e1b-afe0-4ebb-b91b-1d99b3540e0b" />
+
+<img width="1791" height="922" alt="image" src="https://github.com/user-attachments/assets/8e1e8409-068f-49e7-b38c-240ca9054435" />
+
+
